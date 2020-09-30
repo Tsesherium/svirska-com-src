@@ -1,0 +1,25 @@
+* {
+  scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;600&display=swap');
+
+body {
+/*   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: rgb(230,230,230);
+}
+
+
+img {
+  max-width: 100%;
+}
+
+.content {
+  padding: 1rem;
+}
