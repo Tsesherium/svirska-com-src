@@ -12,9 +12,6 @@ const ThumbGrid = styled.div`
   justify-content:center;
 `;
 
-
-
-
 const ThumbnailContainer = styled.div`
   flex: 0 1 ${Dimensions.thumbWidth}px;
   border: 1px solid #ccc;
@@ -60,7 +57,6 @@ opacity: 0;
 color: white;
 
 display:grid;
-template-grid-rows: auto 1fr
 background-color:rgba(0,0,0,0.2);
 
 ${ThumbnailContainer}:hover & {

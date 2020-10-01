@@ -30,12 +30,13 @@ justify-self:end;
 align-self:center;
 margin-top:30px;
 margin-right:30px;
-`;
 
-const Header = styled.header`
-display:grid;
-margin:10px;
-grid-template-columns:repeat(auto-fit,minmax(270px,1fr))
+@media(max-width:412px){
+  grid-row: 2/3;
+  grid-column: 1 / 3;
+  margin:auto;
+  justify-self:center;
+}
 `;
 
 const Content = styled.div`
@@ -46,6 +47,14 @@ const Spacer = styled.div`
 display:inline-block;
 width:10px;
 `;
+
+const WideScreenOnlyLink = styled(MenuLink)`
+
+@media(max-width:412px){
+  display:none;
+}
+`;
+
 
 function App() {
   return (
@@ -59,7 +68,7 @@ function App() {
 
         <LogoSvg />
         <Nav>
-          <MenuLink to="/">Home</MenuLink>
+          <WideScreenOnlyLink to="/">Home</WideScreenOnlyLink>
           <MenuSeparator/>
           <Suspense fallback={<em>Artwork</em>}>
             <CategoryNav />

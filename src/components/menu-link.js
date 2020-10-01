@@ -25,8 +25,11 @@ const Separator = styled.div`
     display:inline-block;
     margin:3px;
     opacity: 0.3;
-    content: '/';
-    transform: translate(0, 2px)
+    transform: translate(0, 2px);
+
+    @media(max-width:412px){
+        display:none;
+    }
 `;
 
 const MenuLink = props => (

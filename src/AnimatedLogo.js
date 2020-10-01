@@ -65,7 +65,11 @@ const AnimatedLogo = () => (
   width: 280px;
   opacity:0.6;
   margin-top: 10px;
-  margin-left: 10px;
+
+  @media(max-width:412px){
+	grid-column: 1 / 3;
+	justify-self:center;
+  }
   `;
   
   export default AnimatedLogo;
