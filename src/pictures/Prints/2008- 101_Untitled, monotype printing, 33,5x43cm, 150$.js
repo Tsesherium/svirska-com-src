@@ -3,7 +3,7 @@
 	"category": "Prints",
 	"technique": "Monotype printing",
 	"dimensions": "33,5 x 43 cm",
-	"price": "150$",
+	"price": "",
 	"year": "2008",
 	"available": false
 }

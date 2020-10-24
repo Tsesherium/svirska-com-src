@@ -1,9 +1,9 @@
 {
-	"title": "Untitled",
+	"title": "Moving forward",
 	"category": "Prints",
 	"technique": "Monotype printing",
-	"dimensions": "33,5 x 43 cm",
-	"price": "180$",
+	"dimensions": "51,5 x 57 cm",
+	"price": "240$",
 	"year": "2008",
-	"available": false
+	"available": true
 }

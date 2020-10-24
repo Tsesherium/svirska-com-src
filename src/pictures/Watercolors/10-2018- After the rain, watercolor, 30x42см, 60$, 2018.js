@@ -3,7 +3,7 @@
 	"category": "Watercolors",
 	"technique": "Watercolor",
 	"dimensions": "30 x 42 cm",
-	"price": "60 $",
+	"price": "60$",
 	"year": "2020",
 	"available": true
 }

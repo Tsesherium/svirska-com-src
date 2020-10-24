@@ -66,8 +66,6 @@ export default function Post() {
 
   const pictureRef = React.useRef(null);
 
-  console.log(images);
-
   useEffect(() => {
     setTimeout(()=>{
       if(pictureRef.current)
