@@ -25,7 +25,7 @@ export default () => (
     <Item>
       1999-2005 - National Academy of Art and Architecture (studio of graphic A.V. Chebykin) qualified graphic artist.<br />
       2005-2008 – post-graduate studies in Ukrainian Academy of Fine Arts (supervisor – A.V.Chebykin).<br />
-      Professional artist and printmaker, Master of Arts. Member of Youth Association of Ukrainian National Union of Artists from 2005. Lives and works in Kiev.<br />
+      Professional artist and printmaker, Master of Arts. Member of Youth Association of Ukrainian National Union of Artists from 2005. Lives and works in Kyiv.<br />
     </Item>
     <Header1>
       Exhibitions
