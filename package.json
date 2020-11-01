@@ -21,7 +21,7 @@
     "react-static-plugin-source-filesystem": "^7.2.0",
     "react-static-plugin-styled-components": "^7.3.0",
     "sharp": "^0.26.1",
-    "styled-components": "^5.2.0"
+    "styled-components": "^4.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",

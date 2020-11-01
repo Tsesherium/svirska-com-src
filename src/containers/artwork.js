@@ -1,15 +1,11 @@
 import React, {useEffect} from 'react'
 import { useRouteData } from 'react-static'
 import { navigate } from "@reach/router";
-
-const goBack = () => {
-navigate(-1);
-}
-
-
-//
 import styled from 'styled-components'
 
+const goBack = () => {
+  navigate(-1);
+}
 
 function importAll(r) {
   let images = {};
@@ -24,7 +20,6 @@ function importAll(r) {
 const images = importAll(require.context('pictures/', true, /\.(png|jpe?g|svg)$/));
 
 const PictureContainer = styled.img`
-  /*max-width: 90vw;*/
   max-height: 90vh;
   display:block;
   margin-left: auto;
